@@ -38,9 +38,9 @@ Users unlock doors by solving coding questions, predicting outputs, or typing co
 - Tools used: VS Code
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: [No]
+- Specifications: [No]
+- Tools required: [No]
 
 ---
 
@@ -59,22 +59,21 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+No special installation is required. Simply clone or download this repository to your computer.
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
+To play the game:
+      1.Open the folder where your project is saved on your conputer.
+      2.Find the file named index.html.
+      3.Double-click that file.It will open in your web browser(like chrome or edge) and the game will start.
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+[No]
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+[No]
 
 ---
 
@@ -84,14 +83,32 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1366" height="768" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/98a48299-f065-4f91-9a9c-7fe59e8942db" />]
+This is the login page.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/748983a5-7585-4d8d-ac24-87533263ec5e" />]
+Here we can select which language to learn.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/3744f687-4708-4efb-9589-e762412b578e" />]
+This page gives the instructions of the game
+
+![<img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/9a811122-60f8-476f-8b1b-c77caa010adb" />]
+here a topic is explained.
+
+![<img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/a41ead54-f733-4e6d-a8f0-6c8dd407b75a" />]
+Here a youtube video is attached .
+
+![<img width="1366" height="768" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/5384933a-0f4a-4612-b411-ab574b6c68f7" />]
+Game starts here from level 1.
+
+![<img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/0388eac9-eec0-456f-bbd1-9f391f99d81e" />]
+level 2 page is this.
+
+![<img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/88ce7aca-473e-444f-bef7-38e6693b4872" />]
+Level 3 is in this page.
+
+![<img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/01ddc788-e676-4c2e-9933-759f2195abd4" />]
+Here, the result is published.
 
 #### Diagrams
 
@@ -180,7 +197,10 @@ List the key features of your project:
 
 #### App Flow Diagram
 
-![App Flow](docs/app-flow.png)
+![App Flow](<img width="1131" height="1600" alt="WhatsApp Image 2026-02-21 at 9 19 10 AM" src="https://github.com/user-attachments/assets/f81d8f69-5488-4d5f-8a47-326707027c15" />) (<img width="1131" height="1600" alt="WhatsApp Image 2026-02-21 at 9 19 10 AM (1)" src="https://github.com/user-attachments/assets/95f585d6-81c2-4a7f-8e4b-5d0e7973a503" />) (<img width="1131" height="1600" alt="WhatsApp Image 2026-02-21 at 9 19 11 AM" src="https://github.com/user-attachments/assets/26fb21ad-db97-4458-9df5-9f56b3a254a9" />)
+
+
+)
 *Explain the user flow through your application*
 
 #### Installation Guide
@@ -375,17 +395,15 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** [ChatGPT]
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+"Debugging assistance for async functions"
+"Code review and optimization suggestions"
 
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+ "Debug this async function that's causing race conditions"
+ "Optimize this database query for better performance"
 
 **Percentage of AI-generated code:** [Approximately X%]
 
@@ -401,9 +419,9 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- [Badhra Praveen]: [Frontend development.]
+- [Muthulekshmi S]: [Debugs errors]
+-
 
 ---
 
