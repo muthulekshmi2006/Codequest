@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CodeQuest - Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="door-container">
+        <div class="door open"></div>
+    </div>
+
+    <div class="container">
+
+        <h1>🏆 Game Result</h1>
+
+        <h2 id="status"></h2>
+
+        <p>🎯 Final Score: <span id="score"></span></p>
+        <p>⏳ Time Taken: <span id="time"></span> sec</p>
+        <p>📊 Progress: <span id="progress"></span></p>
+
+        <button onclick="window.location.href='index.html'">
+            🔄 Play Again
+        </button>
+
+    </div>
+
+    <script>
+        const score = localStorage.getItem("finalScore");
+        const time = localStorage.getItem("finalTime");
+        const progress = localStorage.getItem("progress");
+
+        document.getElementById("score").innerText = score;
+        document.getElementById("time").innerText = time;
+        document.getElementById("progress").innerText = progress;
+
+        if (progress === "Poor") {
+            document.getElementById("status").innerText = "❌ Level Incompleted";
+        } else {
+            document.getElementById("status").innerText = "✅ All Levels Completed!";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CodeQuest - Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="door-container">
+        <div class="door"></div>
+    </div>
+
+    <div class="container game-box">
+
+        <h1 id="levelTitle">🎮 Level 1</h1>
+
+        <p>⏳ Time: <span id="timer">0</span> sec</p>
+        <p>🎯 Score: <span id="score">30</span></p>
+        <p>❌ Chances: <span id="chances">3</span></p>
+
+        <div id="questionArea"></div>
+
+        <button onclick="submitAnswer()">Submit</button>
+        <button onclick="showHint()">💡 Hint</button>
+
+        <p id="hint" style="display:none;"></p>
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
